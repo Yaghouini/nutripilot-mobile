@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "name": "Porridge banane & skyr",
+    "meal": "breakfast",
+    "kcal": 610,
+    "protein": 35,
+    "carbs": 86,
+    "fat": 14,
+    "cost": 1.85,
+    "minutes": 8,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Flocons d’avoine (g)": 90,
+      "Skyr (g)": 200,
+      "Banane (pièce)": 1,
+      "Beurre de cacahuète (g)": 20
+    }
+  },
+  {
+    "id": 2,
+    "name": "Omelette & tartines",
+    "meal": "breakfast",
+    "kcal": 640,
+    "protein": 34,
+    "carbs": 54,
+    "fat": 30,
+    "cost": 2.15,
+    "minutes": 12,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Œufs (pièce)": 3,
+      "Pain complet (g)": 110,
+      "Tomate (g)": 120,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 3,
+    "name": "Fromage blanc, muesli, fruits",
+    "meal": "breakfast",
+    "kcal": 550,
+    "protein": 33,
+    "carbs": 76,
+    "fat": 12,
+    "cost": 2.05,
+    "minutes": 5,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Fromage blanc (g)": 300,
+      "Muesli (g)": 90,
+      "Pomme (pièce)": 1
+    }
+  },
+  {
+    "id": 4,
+    "name": "Pancakes avoine & œufs",
+    "meal": "breakfast",
+    "kcal": 670,
+    "protein": 32,
+    "carbs": 80,
+    "fat": 24,
+    "cost": 1.95,
+    "minutes": 15,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Œufs (pièce)": 3,
+      "Flocons d’avoine (g)": 100,
+      "Lait (ml)": 150,
+      "Banane (pièce)": 1
+    }
+  },
+  {
+    "id": 5,
+    "name": "Riz poulet légumes",
+    "meal": "lunch",
+    "kcal": 780,
+    "protein": 55,
+    "carbs": 93,
+    "fat": 19,
+    "cost": 3.8,
+    "minutes": 25,
+    "tags": "halal",
+    "ingredients": {
+      "Riz cru (g)": 120,
+      "Poulet (g)": 180,
+      "Légumes surgelés (g)": 200,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 6,
+    "name": "Pâtes au thon",
+    "meal": "lunch",
+    "kcal": 740,
+    "protein": 49,
+    "carbs": 92,
+    "fat": 17,
+    "cost": 2.85,
+    "minutes": 18,
+    "tags": "pescatarian",
+    "ingredients": {
+      "Pâtes crues (g)": 125,
+      "Thon en boîte égoutté (g)": 140,
+      "Coulis de tomate (g)": 150,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 7,
+    "name": "Lentilles, riz & œufs",
+    "meal": "lunch",
+    "kcal": 770,
+    "protein": 38,
+    "carbs": 108,
+    "fat": 20,
+    "cost": 2.45,
+    "minutes": 25,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Lentilles cuites (g)": 220,
+      "Riz cru (g)": 90,
+      "Œufs (pièce)": 2,
+      "Carotte (g)": 100
+    }
+  },
+  {
+    "id": 8,
+    "name": "Bowl poulet pommes de terre",
+    "meal": "lunch",
+    "kcal": 810,
+    "protein": 54,
+    "carbs": 90,
+    "fat": 24,
+    "cost": 4.1,
+    "minutes": 30,
+    "tags": "halal",
+    "ingredients": {
+      "Poulet (g)": 180,
+      "Pommes de terre (g)": 400,
+      "Haricots verts (g)": 180,
+      "Huile d’olive (ml)": 15
+    }
+  },
+  {
+    "id": 9,
+    "name": "Semoule pois chiches",
+    "meal": "lunch",
+    "kcal": 720,
+    "protein": 29,
+    "carbs": 113,
+    "fat": 16,
+    "cost": 2.3,
+    "minutes": 18,
+    "tags": "vegan",
+    "ingredients": {
+      "Semoule crue (g)": 115,
+      "Pois chiches cuits (g)": 200,
+      "Courgette (g)": 180,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 10,
+    "name": "Skyr & noix",
+    "meal": "snack",
+    "kcal": 390,
+    "protein": 28,
+    "carbs": 38,
+    "fat": 14,
+    "cost": 1.9,
+    "minutes": 3,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Skyr (g)": 250,
+      "Noix (g)": 25,
+      "Miel (g)": 20
+    }
+  },
+  {
+    "id": 11,
+    "name": "Sandwich thon",
+    "meal": "snack",
+    "kcal": 440,
+    "protein": 31,
+    "carbs": 49,
+    "fat": 13,
+    "cost": 2.2,
+    "minutes": 8,
+    "tags": "pescatarian",
+    "ingredients": {
+      "Pain complet (g)": 110,
+      "Thon en boîte égoutté (g)": 90,
+      "Tomate (g)": 100
+    }
+  },
+  {
+    "id": 12,
+    "name": "Banane, lait & avoine",
+    "meal": "snack",
+    "kcal": 480,
+    "protein": 23,
+    "carbs": 74,
+    "fat": 12,
+    "cost": 1.45,
+    "minutes": 5,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Lait (ml)": 300,
+      "Banane (pièce)": 1,
+      "Flocons d’avoine (g)": 65,
+      "Beurre de cacahuète (g)": 15
+    }
+  },
+  {
+    "id": 13,
+    "name": "Fromage blanc & amandes",
+    "meal": "snack",
+    "kcal": 410,
+    "protein": 32,
+    "carbs": 33,
+    "fat": 17,
+    "cost": 1.75,
+    "minutes": 3,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Fromage blanc (g)": 300,
+      "Amandes (g)": 30,
+      "Miel (g)": 15
+    }
+  },
+  {
+    "id": 14,
+    "name": "Sardines & pommes de terre",
+    "meal": "dinner",
+    "kcal": 720,
+    "protein": 44,
+    "carbs": 75,
+    "fat": 25,
+    "cost": 3.15,
+    "minutes": 22,
+    "tags": "pescatarian",
+    "ingredients": {
+      "Sardines en boîte (g)": 140,
+      "Pommes de terre (g)": 350,
+      "Salade (g)": 100,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 15,
+    "name": "Poulet et pâtes complètes",
+    "meal": "dinner",
+    "kcal": 790,
+    "protein": 56,
+    "carbs": 95,
+    "fat": 19,
+    "cost": 3.95,
+    "minutes": 25,
+    "tags": "halal",
+    "ingredients": {
+      "Poulet (g)": 180,
+      "Pâtes crues (g)": 130,
+      "Brocoli (g)": 200,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 16,
+    "name": "Chili haricots rouges",
+    "meal": "dinner",
+    "kcal": 730,
+    "protein": 32,
+    "carbs": 113,
+    "fat": 16,
+    "cost": 2.55,
+    "minutes": 25,
+    "tags": "vegan",
+    "ingredients": {
+      "Haricots rouges cuits (g)": 250,
+      "Riz cru (g)": 95,
+      "Coulis de tomate (g)": 180,
+      "Oignon (g)": 80,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 17,
+    "name": "Œufs, riz et légumes",
+    "meal": "dinner",
+    "kcal": 740,
+    "protein": 34,
+    "carbs": 95,
+    "fat": 24,
+    "cost": 2.35,
+    "minutes": 20,
+    "tags": "vegetarian",
+    "ingredients": {
+      "Œufs (pièce)": 3,
+      "Riz cru (g)": 110,
+      "Légumes surgelés (g)": 200,
+      "Huile d’olive (ml)": 10
+    }
+  },
+  {
+    "id": 18,
+    "name": "Salade pois chiches & thon",
+    "meal": "dinner",
+    "kcal": 700,
+    "protein": 48,
+    "carbs": 72,
+    "fat": 21,
+    "cost": 3.1,
+    "minutes": 12,
+    "tags": "pescatarian",
+    "ingredients": {
+      "Pois chiches cuits (g)": 230,
+      "Thon en boîte égoutté (g)": 120,
+      "Concombre (g)": 150,
+      "Huile d’olive (ml)": 15
+    }
+  }
+]
