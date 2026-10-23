@@ -1,23 +1,25 @@
-# NutriPilot Mobile (PWA)
+# NutriPilot Coach V3 — iPhone / GitHub Pages
 
-Application statique pour iPhone/Android, sans serveur ni compte. Les données sont enregistrées localement dans le navigateur (localStorage). **Ne pas ouvrir `index.html` directement depuis l’app Fichiers** : les navigateurs bloquent généralement le chargement des recettes en mode `file://`.
+## Nouveautés V3
+- Programme musculation sur cycle de **4 semaines** : semaine 1 volume, 2 variations, 3 intensité, 4 récupération active. Changement automatique chaque lundi, avec aperçu de la semaine suivante.
+- **Illustrations SVG locales** par type de mouvement (schémas simplifiés, pas des démonstrations biomécaniques). Fonctionnent hors ligne.
+- Historique de séances, charges et répétitions conservé. Les charges initiales sont des exemples et doivent être adaptées.
+- Menus sur 7 jours et recettes, journal alimentaire, eau, poids, dashboard, sauvegarde JSON.
+- L'algorithme nutritionnel varie selon la semaine lors de la **nouvelle génération** de menus. Les menus déjà enregistrés ne sont pas modifiés automatiquement.
 
-## Mise en ligne gratuite avec GitHub Pages (sans ordinateur)
-1. Sur Safari, crée un compte sur https://github.com (si nécessaire).
-2. Crée un dépôt **public** nommé `nutripilot-mobile`.
-3. Dans le dépôt, utilise **Add file > Upload files** et envoie **tous les fichiers contenus dans le dossier `nutripilot-mobile`**, pas le ZIP. Sur iPhone, si l’upload multiple est difficile, tu peux utiliser l’éditeur web GitHub et créer les fichiers un par un, ou un ordinateur une seule fois.
-4. Va dans **Settings > Pages > Build and deployment**, sélectionne **Deploy from a branch**, puis **main / (root)** et sauvegarde.
-5. Attends la publication ; l’adresse sera `https://TON_PSEUDO.github.io/nutripilot-mobile/`.
-6. Ouvre cette adresse dans Safari sur iPhone, puis **Partager > Sur l’écran d’accueil > Ajouter**.
+## Installation depuis un iPhone
+1. **Sauvegarde tes données** dans l'ancienne application : Réglages > Exporter mes données.
+2. Décompresse le ZIP et transfère **tous les fichiers ET le dossier `illustrations/`** à la racine du dépôt GitHub existant. Remplace les anciens fichiers, sans supprimer `illustrations/`.
+3. Vérifie GitHub Pages : Settings > Pages > Deploy from a branch > main > /(root).
+4. Attends la publication, ouvre ton site dans Safari et actualise-le. Si l'ancienne version reste affichée, ferme puis rouvre la PWA après quelques minutes.
+5. Les données sont stockées uniquement sur l'appareil dans `localStorage` (`nutripilot-v1`). Pas de compte ni synchronisation.
 
-GitHub Pages est un hébergement statique gratuit selon les conditions de GitHub. Le dépôt public rend le **code** public, mais pas les données enregistrées sur ton iPhone. N’ajoute aucune donnée personnelle au dépôt.
+## Limites importantes
+- Les images sont des **illustrations stylisées par catégorie**, pas des photos ni tutoriels techniques exercice par exercice.
+- Les notifications ne fonctionnent que quand l'application est ouverte. Pas de push en arrière-plan sans infrastructure serveur.
+- Pas d'IA conversationnelle : coach algorithmique avec programme périodisé.
+- Les valeurs nutritionnelles et les prix sont approximatifs.
+- En cas de douleur, fatigue inhabituelle ou reprise après maladie, réduire les charges et consulter un professionnel si nécessaire.
 
-## Tester localement (facultatif)
+## Test local
 `python -m http.server 8000` puis ouvrir `http://localhost:8000`.
-
-## Limites de cette version
-- 18 recettes avec estimations nutritionnelles et prix indicatifs, pas de prix de supermarché en direct.
-- Le générateur ajuste approximativement les portions aux calories, mais **ne garantit pas** l’objectif protéines ni le budget. Les données ne remplacent pas les conseils d’un professionnel.
-- La catégorie « sans porc ni alcool » ne certifie pas les ingrédients ou viandes halal.
-- Aucune synchronisation : effacer les données Safari ou changer d’appareil peut supprimer les données. Exporter régulièrement une sauvegarde JSON dans Profil.
-- L’installation et le mode hors ligne nécessitent d’ouvrir d’abord l’application sur son adresse HTTPS.

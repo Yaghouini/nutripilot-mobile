@@ -1,1 +1,1 @@
-{"name": "NutriPilot — Nutrition & budget", "short_name": "NutriPilot", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#f7f8f2", "theme_color": "#176a4b", "icons": [{"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]}
+{"name":"NutriPilot Coach — Nutrition & Musculation","short_name":"NutriCoach","start_url":"./","scope":"./","display":"standalone","background_color":"#f5f6f1","theme_color":"#12372d","icons":[{"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]}
